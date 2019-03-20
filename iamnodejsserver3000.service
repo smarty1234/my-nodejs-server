@@ -2,7 +2,7 @@
 Description=Start iamnodejsserver3000 Service
 
 [Service]
-ExecStart="/usr/bin/node /home/ubuntu/iamnodejsserver3000.js"
+ExecStart=/usr/bin/node /home/ubuntu/iamnodejsserver3000.js
 Type=oneshot
 RemainAfterExit=yes
 
